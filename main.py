@@ -6,7 +6,7 @@ from json import loads
 from datetime import datetime
 from ctypes import windll
 
-import pysnooper
+# import pysnooper
 
 FILENAME_OF_FILE_WITH_DIRS_FOR_BACKUP = "dirs_for_backup_test.txt"
 
