@@ -190,3 +190,4 @@ if __name__ == "__main__":
     backup_dirs(dirs_for_backup, dirpath_for_backup)
     folders_with_shortcuts = [(dirpath, get_all_shortcuts_with_targets(dirpath)) for dirpath in dirs_for_backup]
     replace_shortcuts(folders_with_shortcuts, dirpath_for_backup)
+
